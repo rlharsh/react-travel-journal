@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.travel-wrapper {
+    @include centered-box(470px, auto);
+    @include center-container;
+    margin-top: 2.81rem;
+    flex-direction: column;
+}

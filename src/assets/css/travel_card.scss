@@ -1,0 +1,82 @@
+@import './variables.scss';
+
+.travel-card {
+    @include box(470px, 168px);
+    position: relative;
+    margin: 1rem 0;
+
+.travel-card__image__container {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: inherit;
+    }
+}
+}
+
+.travel-card__information__container {
+    @include box(345px, 100%);
+    margin-top: 1rem;
+    flex-direction: column;
+
+    padding-left: 20px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 1.56rem;
+        margin-top: 4px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10.24px;
+        line-height: 12px;
+    }
+
+    p {
+        margin-top: 8px;
+        font-style: normal;
+        font-size: 10.24px;
+        line-height: 150%;
+    }
+}
+
+.travel-card__header {
+    @include centered-box(100%, auto);
+
+    i {
+        color: $header-background-color;
+    }
+
+    h3 {
+        font-size: .625rem;
+        letter-spacing: 0.17em;
+        padding-left: 4px;
+        text-transform: uppercase;
+    }
+
+    a {
+        padding-left: 12px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 12px;
+        color: $link-color;
+    }
+}
+
+hr {
+    width: 478px;
+    height: 0px;
+    left: 40px;
+    top: 286px;
+
+    border: 1px solid #F5F5F5;
+}

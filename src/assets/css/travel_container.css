@@ -1,0 +1,9 @@
+.travel-wrapper {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 470px;
+  margin: 0 auto;
+  margin-top: 2.81rem;
+  flex-direction: column;
+}/*# sourceMappingURL=travel_container.css.map */
